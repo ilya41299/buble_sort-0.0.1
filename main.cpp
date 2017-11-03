@@ -1,6 +1,6 @@
 #include <iostream>
 #include <sstream>
-using namespace std;https:
+using namespace std;
 void buble_sort(int *mas, unsigned int k){  
 for(unsigned int i=0;i<k-1;i++){
     for (unsigned int j=0; j<k-i-1; j++){ 
@@ -23,6 +23,7 @@ int main()
     for (unsigned int i=0; i<k;i++){
         if(!(stream>> mas[i])){
             cout<<"ERROR"<<endl;
+            delete[]mas;
             return -1;
         }
     }
