@@ -1,6 +1,6 @@
 #include <iostream>
 #include <sstream>
-using namespace std;https://github.com/ilya41299/buble_soirt-0.0.1
+using namespace std;https:
 void buble_sort(int *mas, unsigned int k){  
 for(unsigned int i=0;i<k-1;i++){
     for (unsigned int j=0; j<k-i-1; j++){ 
