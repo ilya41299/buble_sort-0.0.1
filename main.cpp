@@ -14,9 +14,15 @@ void buble_sort(int *mas, unsigned int k){
 int main()
 {
     unsigned int k;
-    cin>> k;
-    cin.get();
     int *mas = new int [k];
+    if (cin >> k){
+            mas = new int [k];
+        } 
+    else { 
+        cout<<"error"<<endl; 
+        return -1; 
+    } 
+    cin.get();
     string stroka;
     getline (cin, stroka);
     istringstream stream (stroka);
